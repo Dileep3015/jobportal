@@ -1,0 +1,9 @@
+$kind: http-request
+name: http://localhost:8080/api/auth/register
+url: http://localhost:8080/api/admin/test
+method: GET
+auth:
+  type: bearer
+  credentials:
+    token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODc5MzQ2MDgsImV4cCI6MTc4NzkzODIwOH0.zgwFosAk7f06QZQNc9QyTUPWg-wifzQiHyRoxrL4ZgU
+order: 1786330246142
